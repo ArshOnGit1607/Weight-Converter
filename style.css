@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     box-sizing: border-box;
     background: linear-gradient(to bottom, red, yellow);
     background-repeat: no-repeat;
@@ -34,12 +35,26 @@ body header{
     width:30vw;
     height: 10vh;
     border-radius: 10px;
+    font-size: large;
 }
 #btn{
-    margin:0.5rem;
+    /* margin:0.5rem; */
     width:8vw;
     height:5vh;
     align-self:center;
     background-color: rgb(188, 229, 229);
     border-radius: 10px;
+}
+#ans{
+    font-size: medium;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    justify-self: center;
+    align-self: center;
+    border:2px black solid;
+    border-radius: 10px;
+    width:20vw;
+    height:5vh;
+    background-color: white;
+    text-align: center;
 }
